@@ -29,4 +29,3 @@ chain=prompt | model | parser
 result=chain.invoke({"review":"This is a great product. I love it!"})
 print(result)
 
-print(chain.get_graph().print_ascii())
